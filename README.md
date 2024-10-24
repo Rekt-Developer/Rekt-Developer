@@ -31,7 +31,7 @@ class Likhon:
 </div>
 
 ## 🐍 Contributions
-![Snake animation](https://raw.githubusercontent.com/likhonisaac/snk/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/github/snk/output/github-contribution-grid-snake.svg)
 
 <div align="center">
   <b>Profile Views:</b><br>
