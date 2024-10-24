@@ -7,154 +7,329 @@
     <meta name="keywords" content="Likhon Sheikh, Programmer, Tech Enthusiast, Technology Blog, Cryptocurrency, Bangladesh, Python, Web Development">
     <meta name="author" content="Likhon Sheikh">
     <meta name="robots" content="index,follow">
-    <title>Likhon Sheikh - Author, Programmer & Tech Enthusiast</title>
+    <title>Likhon Sheikh - Tech Explorer & Programmer</title>
 
-    <!-- Open Graph Meta Tags for Social Sharing -->
-    <meta property="og:title" content="Likhon Sheikh - Author, Programmer & Tech Enthusiast">
-    <meta property="og:description" content="Likhon Sheikh - Programmer and Tech Enthusiast from Bangladesh. Sharing advanced programming insights, tutorials, and cryptocurrency news.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/api/placeholder/32/32" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Likhon Sheikh - Tech Explorer & Programmer">
+    <meta property="og:description" content="Join me on a journey through technology, programming, and cryptocurrency insights.">
     <meta property="og:url" content="https://likhon.xyz">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://likhon.xyz/assets/profile_picture.png">
+    <meta property="og:image" content="/api/placeholder/1200/630">
 
-    <!-- Structured Data for Google Knowledge Panel -->
+    <!-- Schema.org Markup -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Likhon Sheikh",
-      "jobTitle": "Programmer and Tech Enthusiast",
+      "jobTitle": "Tech Explorer & Programmer",
       "url": "https://likhon.xyz",
-      "image": "https://likhon.xyz/assets/profile_picture.png",
-      "description": "Likhon Sheikh - Programmer and Tech Enthusiast from Bangladesh. Sharing advanced programming insights, tutorials, and cryptocurrency news.",
+      "image": "/api/placeholder/400/400",
+      "description": "Tech enthusiast sharing insights on programming, cryptocurrency, and web development.",
       "sameAs": [
         "https://github.com/likhonisaac",
-        "https://www.linkedin.com/in/likhon-sheikh",
-        "https://twitter.com/likhon"
-      ],
-      "knowsAbout": ["Python", "Web Development", "Cryptocurrency", "Programming"],
-      "alumniOf": "University of Dhaka",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Likhon's Tech Blog"
-      }
+        "https://t.me/LearnwithLikhon",
+        "https://t.me/RexxCheat"
+      ]
     }
     </script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
     <style>
+        :root {
+            --primary-color: #38BDAE;
+            --secondary-color: #2C3E50;
+            --background-color: #F5F6FA;
+            --text-color: #2C3E50;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            color: var(--text-color);
+            background-color: var(--background-color);
         }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
         .header {
-            background: #38BDAE;
+            background: linear-gradient(135deg, var(--primary-color), #2980b9);
             color: white;
-            padding: 10px 0;
-            text-align: center;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
         }
+
         .header h1 {
-            margin: 0;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
         }
-        .about, .content, .blog {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Card Styles */
+        .card {
             background: white;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--card-shadow);
         }
-        .about h2, .content h2, .blog h2 {
-            border-bottom: 2px solid #38BDAE;
-            padding-bottom: 5px;
+
+        .card h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color);
         }
-        .rss-feed ul {
-            list-style: none;
-            padding: 0;
+
+        /* RSS Feed Styles */
+        .rss-feed {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
         }
-        .rss-feed li {
-            margin-bottom: 20px;
+
+        .article-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            box-shadow: var(--card-shadow);
         }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #38BDAE;
-            color: white;
-            position: relative;
-            bottom: 0;
+
+        .article-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .article-image {
             width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .article-content {
+            padding: 1rem;
+        }
+
+        .article-title {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .article-description {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .article-date {
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        /* Blog Posts Grid */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .blog-post {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Footer Styles */
+        .footer {
+            background: var(--secondary-color);
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                padding: 1.5rem;
+            }
+
+            .rss-feed {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Welcome to Likhon Sheikh's Tech Blog</h1>
-        <p>Sharing insights about programming, web development, and cryptocurrency</p>
-    </div>
-
-    <div class="about">
-        <h2>About Likhon Sheikh</h2>
-        <p>Hi, I’m Likhon Sheikh, a tech enthusiast and programmer from Bangladesh. I specialize in Python, web development, and cryptocurrency. My passion is sharing knowledge, creating tutorials, and helping others navigate the tech world. Since 2020, I've been actively involved in tech communities, and I provide solutions to common programming problems through blogs and tutorials.</p>
-    </div>
-
-    <div class="content">
-        <h2>Latest Articles from CoinTelegraph</h2>
-        <div class="rss-feed" id="rss-feed">
-            <p>Loading articles...</p>
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to Likhon Sheikh's Tech Hub</h1>
+            <p>Exploring Technology, Programming & Cryptocurrency</p>
         </div>
-    </div>
+    </header>
 
-    <div class="blog">
-        <h2>Latest Blog Posts</h2>
-        <ul>
-            <li><a href="blog1.html">5 Tips for Mastering Python as a Beginner</a></li>
-            <li><a href="blog2.html">Understanding Cryptocurrency and Blockchain Basics</a></li>
-            <li><a href="blog3.html">Building Responsive Websites with HTML, CSS, and JavaScript</a></li>
-            <li><a href="blog4.html">How to Secure Your Cloud Infrastructure on GCP</a></li>
-        </ul>
-    </div>
+    <main class="container">
+        <section class="card">
+            <h2>About Me</h2>
+            <p>Hey there! 👋 I'm Likhon Sheikh, a passionate tech enthusiast and programmer from Bangladesh. Since 2020, I've been diving deep into Python, web development, and cryptocurrency. I love sharing knowledge through my blogs and tutorials, helping others navigate the fascinating world of technology.</p>
+            <div style="margin-top: 1rem;">
+                <a href="https://t.me/LearnwithLikhon" target="_blank" style="margin-right: 1rem;">
+                    <img src="https://img.shields.io/badge/Learn_with_Likhon-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Learning Channel">
+                </a>
+                <a href="https://t.me/RexxCheat" target="_blank">
+                    <img src="https://img.shields.io/badge/Rexx_Cheat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Tech Channel">
+                </a>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; <span id="year"></span> Likhon Sheikh - Tech Enthusiast from Bangladesh | <a href="privacy-policy.html" style="color: white;">Privacy Policy</a></p>
+        <section class="card">
+            <h2>Latest Crypto News</h2>
+            <div class="rss-feed" id="rss-feed">
+                <div class="article-card">
+                    <div class="article-content">
+                        <p>Loading latest cryptocurrency news...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Featured Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <h3>Mastering Python: A Beginner's Guide</h3>
+                    <p>Essential tips and tricks to help you start your Python journey on the right foot.</p>
+                </article>
+                <article class="blog-post">
+                    <h3>Cryptocurrency Fundamentals</h3>
+                    <p>Understanding the basics of blockchain technology and cryptocurrency trading.</p>
+                </article>
+                <article class="blog-post">
+                    <h3>Web Development Best Practices</h3>
+                    <p>Modern approaches to building responsive and efficient websites.</p>
+                </article>
+                <article class="blog-post">
+                    <h3>Cloud Security Essentials</h3>
+                    <p>Protecting your infrastructure on Google Cloud Platform.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> Likhon Sheikh | Tech Explorer from Bangladesh</p>
+            <div style="margin-top: 1rem;">
+                <a href="https://likhon.xyz">Website</a> |
+                <a href="https://likhown.dev">Dev Blog</a> |
+                <a href="https://likhonsheikh.com">Portfolio</a> |
+                <a href="mailto:me@likhonsheikh.com">Email</a>
+            </div>
+        </div>
     </footer>
 
     <script>
-        // Automatically set the current year in the footer
+        // Set current year
         document.getElementById('year').textContent = new Date().getFullYear();
 
-        // Function to fetch RSS feed articles
-        async function fetchRSSFeed(url) {
-            const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
-            const data = await response.json();
-            const rssFeed = new window.DOMParser().parseFromString(data.contents, 'text/xml');
-            const items = rssFeed.getElementsByTagName('item');
+        // Enhanced RSS Feed fetching with error handling and caching
+        async function fetchRSSFeed() {
+            try {
+                const response = await fetch('https://api.allorigins.win/get?url=' + 
+                    encodeURIComponent('https://cointelegraph.com/rss'));
+                
+                if (!response.ok) throw new Error('Network response was not ok');
+                
+                const data = await response.json();
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(data.contents, 'text/xml');
+                const items = xml.getElementsByTagName('item');
+                
+                let articlesHTML = '';
+                
+                for (let i = 0; i < Math.min(6, items.length); i++) {
+                    const title = items[i].getElementsByTagName('title')[0].textContent;
+                    const link = items[i].getElementsByTagName('link')[0].textContent;
+                    const description = items[i].getElementsByTagName('description')[0].textContent;
+                    const pubDate = new Date(items[i].getElementsByTagName('pubDate')[0].textContent)
+                        .toLocaleDateString('en-US', { 
+                            year: 'numeric', 
+                            month: 'short', 
+                            day: 'numeric' 
+                        });
 
-            let articles = '';
-            for (let i = 0; i < items.length; i++) {
-                const title = items[i].getElementsByTagName('title')[0].textContent;
-                const link = items[i].getElementsByTagName('link')[0].textContent;
-                const description = items[i].getElementsByTagName('description')[0].textContent;
-                const pubDate = items[i].getElementsByTagName('pubDate')[0].textContent;
+                    articlesHTML += `
+                        <article class="article-card">
+                            <img src="/api/placeholder/400/200" alt="Article thumbnail" class="article-image">
+                            <div class="article-content">
+                                <h3 class="article-title">
+                                    <a href="${link}" target="_blank" style="color: inherit; text-decoration: none;">
+                                        ${title}
+                                    </a>
+                                </h3>
+                                <p class="article-description">${description.slice(0, 100)}...</p>
+                                <span class="article-date">${pubDate}</span>
+                            </div>
+                        </article>
+                    `;
+                }
 
-                articles += `
-                    <li>
-                        <a href="${link}" target="_blank">
-                            <h3>${title}</h3>
-                        </a>
-                        <p>${description}</p>
-                        <small>Published on: ${new Date(pubDate).toLocaleDateString()}</small>
-                    </li>
+                document.getElementById('rss-feed').innerHTML = articlesHTML;
+
+            } catch (error) {
+                console.error('Error fetching RSS feed:', error);
+                document.getElementById('rss-feed').innerHTML = `
+                    <div class="article-card">
+                        <div class="article-content">
+                            <p>Unable to load news at the moment. Please try again later.</p>
+                        </div>
+                    </div>
                 `;
             }
-
-            document.getElementById('rss-feed').innerHTML = `<ul>${articles}</ul>`;
         }
 
-        // Fetch articles from CoinTelegraph RSS feed
-        fetchRSSFeed('https://cointelegraph.com/rss');
+        // Fetch RSS feed when page loads
+        fetchRSSFeed();
     </script>
 </body>
 </html>
