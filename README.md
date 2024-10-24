@@ -16,7 +16,7 @@ class Likhon:
 ## 🌐 Connect With Me
 [![Email](https://img.shields.io/badge/Email-me%40likhonsheikh.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:me@likhonsheikh.com)
 [![Website](https://img.shields.io/badge/Website-likhon.xyz-38BDAE?style=flat-square&logo=google-chrome&logoColor=white)](https://likhon.xyz)
-[![Telegram Learn](https://img.shields.io/badge/Telegram-Learn_with_Likhon-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/LearnwithLikhon)
+[![Telegram Learn](https://img.shields.io/badge/Telegram-Learn_with_Likhon-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/+xwhbLql-4HU1Yzg1)
 [![Telegram Rexx](https://img.shields.io/badge/Telegram-Rexx_Cheat-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/RexxCheat)
 
 ## 🛠️ Tech Stack
