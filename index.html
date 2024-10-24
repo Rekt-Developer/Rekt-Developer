@@ -1,0 +1,119 @@
+<?php
+// Fetch RSS feed and autopost functionality
+
+function fetch_rss_feed($url) {
+    $rss = simplexml_load_file($url);
+    $articles = [];
+    foreach ($rss->channel->item as $item) {
+        $articles[] = [
+            'title' => (string) $item->title,
+            'link' => (string) $item->link,
+            'description' => (string) $item->description,
+            'pubDate' => (string) $item->pubDate,
+        ];
+    }
+    return $articles;
+}
+
+$cointelegraph_articles = fetch_rss_feed('https://cointelegraph.com/rss');
+
+// Meta Tags for SEO
+$meta_description = "Likhon Sheikh - Programmer and Tech Enthusiast from Bangladesh. Sharing advanced programming insights, tutorials, and cryptocurrency news.";
+$meta_keywords = "Likhon Sheikh, Programmer, Tech Enthusiast, Technology Blog, Cryptocurrency, Bangladesh, Python, Web Development";
+$meta_author = "Likhon Sheikh";
+$site_url = "https://likhon.xyz";  // Update with your site's URL
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?php echo $meta_description; ?>">
+    <meta name="keywords" content="<?php echo $meta_keywords; ?>">
+    <meta name="author" content="<?php echo $meta_author; ?>">
+    <meta name="robots" content="index,follow">
+    <title>Likhon Sheikh - Author, Programmer & Tech Enthusiast</title>
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Likhon Sheikh - Author, Programmer & Tech Enthusiast">
+    <meta property="og:description" content="<?php echo $meta_description; ?>">
+    <meta property="og:url" content="<?php echo $site_url; ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://likhon.xyz/assets/profile_picture.png">
+
+    <!-- Structured Data for Google Knowledge Panel -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Likhon Sheikh",
+      "jobTitle": "Programmer and Tech Enthusiast",
+      "url": "<?php echo $site_url; ?>",
+      "image": "<?php echo $site_url; ?>/assets/profile_picture.png",
+      "description": "<?php echo $meta_description; ?>",
+      "sameAs": [
+        "https://github.com/likhonisaac",
+        "https://www.linkedin.com/in/likhon-sheikh",
+        "https://twitter.com/likhon"
+      ],
+      "knowsAbout": ["Python", "Web Development", "Cryptocurrency", "Programming"],
+      "alumniOf": "University of Dhaka",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Likhon's Tech Blog"
+      }
+    }
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Likhon Sheikh's Tech Blog</h1>
+        <p>Sharing insights about programming, web development, and cryptocurrency</p>
+    </div>
+
+    <div class="about">
+        <h2>About Likhon Sheikh</h2>
+        <p>Hi, I’m Likhon Sheikh, a tech enthusiast and programmer from Bangladesh. I specialize in Python, web development, and cryptocurrency. My passion is sharing knowledge, creating tutorials, and helping others navigate the tech world. Since 2020, I've been actively involved in tech communities, and I provide solutions to common programming problems through blogs and tutorials.</p>
+    </div>
+
+    <div class="content">
+        <h2>Latest Articles from CoinTelegraph</h2>
+        <div class="rss-feed">
+            <?php if (!empty($cointelegraph_articles)): ?>
+                <ul>
+                    <?php foreach ($cointelegraph_articles as $article): ?>
+                        <li>
+                            <a href="<?php echo $article['link']; ?>" target="_blank">
+                                <h3><?php echo $article['title']; ?></h3>
+                            </a>
+                            <p><?php echo $article['description']; ?></p>
+                            <small>Published on: <?php echo date('F j, Y', strtotime($article['pubDate'])); ?></small>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            <?php else: ?>
+                <p>No articles found at the moment. Please check back later.</p>
+            <?php endif; ?>
+        </div>
+    </div>
+
+    <div class="blog">
+        <h2>Latest Blog Posts</h2>
+        <ul>
+            <!-- Example Blog Posts -->
+            <li><a href="blog1.php">5 Tips for Mastering Python as a Beginner</a></li>
+            <li><a href="blog2.php">Understanding Cryptocurrency and Blockchain Basics</a></li>
+            <li><a href="blog3.php">Building Responsive Websites with HTML, CSS, and JavaScript</a></li>
+            <li><a href="blog4.php">How to Secure Your Cloud Infrastructure on GCP</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; <?php echo date('Y'); ?> Likhon Sheikh - Tech Enthusiast from Bangladesh | <a href="privacy-policy.php">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
