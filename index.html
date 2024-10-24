@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Likhon Sheikh - Programmer and Tech Enthusiast from Bangladesh. Sharing advanced programming insights, tutorials, and cryptocurrency news.">
-    <meta name="keywords" content="Likhon Sheikh, Programmer, Tech Enthusiast, Technology Blog, Cryptocurrency, Bangladesh, Python, Web Development">
+    <meta name="description" content="Likhon Sheikh - Tech Explorer and Programmer from Bangladesh. Explore advanced programming, web development, and cryptocurrency insights.">
+    <meta name="keywords" content="Likhon Sheikh, Tech Explorer, Programmer, Technology Blog, Cryptocurrency, Bangladesh, Python, Web Development">
     <meta name="author" content="Likhon Sheikh">
     <meta name="robots" content="index,follow">
     <title>Likhon Sheikh - Tech Explorer & Programmer</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/api/placeholder/32/32" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Likhon Sheikh - Tech Explorer & Programmer">
-    <meta property="og:description" content="Join me on a journey through technology, programming, and cryptocurrency insights.">
+    <meta property="og:description" content="Explore technology, programming, and cryptocurrency insights with Likhon Sheikh.">
     <meta property="og:url" content="https://likhon.xyz">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/api/placeholder/1200/630">
@@ -28,7 +28,7 @@
       "jobTitle": "Tech Explorer & Programmer",
       "url": "https://likhon.xyz",
       "image": "/api/placeholder/400/400",
-      "description": "Tech enthusiast sharing insights on programming, cryptocurrency, and web development.",
+      "description": "Tech enthusiast and programmer sharing insights on Python, web development, and cryptocurrency.",
       "sameAs": [
         "https://github.com/likhonisaac",
         "https://t.me/LearnwithLikhon",
@@ -41,9 +41,10 @@
         :root {
             --primary-color: #38BDAE;
             --secondary-color: #2C3E50;
-            --background-color: #F5F6FA;
-            --text-color: #2C3E50;
+            --background-color: #222;
+            --text-color: #fff;
             --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --banner-height: 250px;
         }
 
         * {
@@ -71,6 +72,10 @@
             color: white;
             padding: 2rem 0;
             margin-bottom: 2rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .header h1 {
@@ -85,11 +90,16 @@
 
         /* Card Styles */
         .card {
-            background: white;
+            background: var(--background-color);
             border-radius: 10px;
             padding: 2rem;
             margin-bottom: 2rem;
             box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
         }
 
         .card h2 {
@@ -108,7 +118,7 @@
         }
 
         .article-card {
-            background: white;
+            background: var(--background-color);
             border-radius: 8px;
             overflow: hidden;
             transition: transform 0.3s ease;
@@ -121,7 +131,7 @@
 
         .article-image {
             width: 100%;
-            height: 200px;
+            height: var(--banner-height);
             object-fit: cover;
         }
 
@@ -137,7 +147,7 @@
 
         .article-description {
             font-size: 0.9rem;
-            color: #666;
+            color: #ccc;
             margin-bottom: 1rem;
         }
 
@@ -154,7 +164,7 @@
         }
 
         .blog-post {
-            background: white;
+            background: var(--background-color);
             padding: 1.5rem;
             border-radius: 8px;
             box-shadow: var(--card-shadow);
@@ -197,6 +207,10 @@
             .rss-feed {
                 grid-template-columns: 1fr;
             }
+
+            .article-image {
+                height: 200px;
+            }
         }
     </style>
 </head>
@@ -204,14 +218,14 @@
     <header class="header">
         <div class="container">
             <h1>Welcome to Likhon Sheikh's Tech Hub</h1>
-            <p>Exploring Technology, Programming & Cryptocurrency</p>
+            <p>Explore Technology, Programming, and Cryptocurrency</p>
         </div>
     </header>
 
     <main class="container">
         <section class="card">
             <h2>About Me</h2>
-            <p>Hey there! 👋 I'm Likhon Sheikh, a passionate tech enthusiast and programmer from Bangladesh. Since 2020, I've been diving deep into Python, web development, and cryptocurrency. I love sharing knowledge through my blogs and tutorials, helping others navigate the fascinating world of technology.</p>
+            <p>Hi there! I'm Likhon Sheikh, a tech enthusiast and programmer from Bangladesh. I've been passionate about Python, web development, and cryptocurrency since 2020. Join me on this journey as I share my knowledge and insights through blogs and tutorials.</p>
             <div style="margin-top: 1rem;">
                 <a href="https://t.me/LearnwithLikhon" target="_blank" style="margin-right: 1rem;">
                     <img src="https://img.shields.io/badge/Learn_with_Likhon-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Learning Channel">
@@ -225,11 +239,7 @@
         <section class="card">
             <h2>Latest Crypto News</h2>
             <div class="rss-feed" id="rss-feed">
-                <div class="article-card">
-                    <div class="article-content">
-                        <p>Loading latest cryptocurrency news...</p>
-                    </div>
-                </div>
+                <!-- RSS feed content will be dynamically loaded here -->
             </div>
         </section>
 
@@ -238,19 +248,19 @@
             <div class="blog-grid">
                 <article class="blog-post">
                     <h3>Mastering Python: A Beginner's Guide</h3>
-                    <p>Essential tips and tricks to help you start your Python journey on the right foot.</p>
+                    <p>A comprehensive guide to help you get started with Python programming.</p>
                 </article>
                 <article class="blog-post">
                     <h3>Cryptocurrency Fundamentals</h3>
-                    <p>Understanding the basics of blockchain technology and cryptocurrency trading.</p>
+                    <p>Explore the basics of blockchain and cryptocurrency trading.</p>
                 </article>
                 <article class="blog-post">
                     <h3>Web Development Best Practices</h3>
-                    <p>Modern approaches to building responsive and efficient websites.</p>
+                    <p>Learn modern techniques for building efficient and responsive websites.</p>
                 </article>
                 <article class="blog-post">
                     <h3>Cloud Security Essentials</h3>
-                    <p>Protecting your infrastructure on Google Cloud Platform.</p>
+                    <p>Protect your infrastructure on Google Cloud Platform.</p>
                 </article>
             </div>
         </section>
@@ -321,7 +331,7 @@
                 document.getElementById('rss-feed').innerHTML = `
                     <div class="article-card">
                         <div class="article-content">
-                            <p>Unable to load news at the moment. Please try again later.</p>
+                            <p>Unable to load news. Please check back later.</p>
                         </div>
                     </div>
                 `;
