@@ -1,4 +1,3 @@
-# .github/workflows/metrics.yml
 name: Metrics Generation
 
 on:
@@ -21,18 +20,41 @@ jobs:
           user: likhonisaac
           template: classic
           base: header, activity, community, repositories, metadata
+          config_display: large
+          config_padding: 10%
+          
+          # Enhanced language statistics
           plugin_languages: yes
-          plugin_languages_details: percentage
+          plugin_languages_details: bytes-size, percentage
           plugin_languages_sections: most-used, recently-used
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 2%
+          
+          # Detailed habits analysis
           plugin_habits: yes
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          plugin_habits_trim: yes
+          
+          # Comprehensive achievements
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          
+          # Extended isocalendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          
+          # Additional plugins
+          plugin_notable: yes
+          plugin_discussions: yes
+          plugin_contributors: yes
+          plugin_stars: yes
+          plugin_topics: yes
+          plugin_traffic: yes
 
   snake:
     runs-on: ubuntu-latest
@@ -50,6 +72,8 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
             dist/forest.gif?color_snake=#34d399&color_dots=#f1f8ff,#216e39,#30a14e,#40c463
+            dist/neon.gif?color_snake=#00ff00&color_dots=#000000,#1f1f1f,#2f2f2f,#3f3f3f
+            dist/rainbow.gif?color_snake=#ff0000&color_dots=#ff0000,#ff7f00,#ffff00,#00ff00,#0000ff,#4b0082,#8f00ff
       
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
@@ -65,16 +89,36 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
+      
       - name: Generate 3D Contribution Calendar
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          # Custom configurations
+          MAX_LOADING: 100
+          SETTING_JSON: |
+            {
+              "type": "rainbow",
+              "backgroundColor": "#ffffff",
+              "foregroundColor": "#00000f",
+              "strongColor": "#111133",
+              "weakColor": "#111133",
+              "radarColor": "#47a042",
+              "growingAnimation": true,
+              "contribColors": [
+                "#efefef",
+                "#d8e887",
+                "#8cc569",
+                "#47a042",
+                "#1d6a23"
+              ]
+            }
           
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "Generated 3D Contribution Calendar"
+          git commit -m "Generated Enhanced 3D Contribution Calendar"
           git push
