@@ -18,31 +18,6 @@
   <img src="https://raw.githubusercontent.com/likhonisaac/likhonisaac/main/assets/banner.gif" width="100%" alt="Banner"/>
 </div>
 
-## 🧑‍💻 About Me
-```typescript
-interface Developer {
-    name: string;
-    role: string;
-    location: string;
-    languages: string[];
-    workingOn: string[];
-    funFact: string;
-}
-
-const Likhon: Developer = {
-    name: "Likhon",
-    role: "Full Stack Developer",
-    location: "Bangladesh 🇧🇩",
-    languages: ["JavaScript", "Python", "TypeScript", "Go"],
-    workingOn: [
-        "Building scalable web applications",
-        "Contributing to open source",
-        "Learning cloud architecture"
-    ],
-    funFact: "I debug code by talking to my rubber duck 🦆"
-};
-```
-
 <!-- GitHub Snake Animation -->
 <picture>
   <source
