@@ -13,11 +13,12 @@ class Likhon:
         self.fun_fact = "CTRL+C & CTRL+V Expert 😉"
 ```
 
-## 🌐 Connect With Me
-[![Email](https://img.shields.io/badge/Email-me%40likhonsheikh.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:me@likhonsheikh.com)
-[![Website](https://img.shields.io/badge/Website-likhon.xyz-38BDAE?style=flat-square&logo=google-chrome&logoColor=white)](https://likhon.xyz)
-[![Telegram Learn](https://img.shields.io/badge/Telegram-Learn_with_Likhon-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/+xwhbLql-4HU1Yzg1)
-[![Telegram Rexx](https://img.shields.io/badge/Telegram-Rexx_Cheat-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/RexxCheat)
+### Hi there 👋
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/likhonisaac/likhonisaac/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![github contribution grid snake animation](https://raw.githubusercontent.com/likhonisaac/likhonisaac/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+![](https://komarev.com/ghpvc/?username=likhonisaac)
 
 ## 🛠️ Tech Stack
 <div align="left">
@@ -28,9 +29,4 @@ class Likhon:
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=likhonisaac&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=likhonisaac&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</div>
-
-<div align="center">
-  <b>Profile Views:</b><br>
-  <img src="https://profile-counter.glitch.me/likhonisaac/count.svg?" />
 </div>
