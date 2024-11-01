@@ -1,5 +1,4 @@
-# .github/workflows/metrics.yml
-name: Metrics Generation
+name: Comprehensive GitHub Metrics
 
 on:
   schedule:
@@ -9,72 +8,127 @@ on:
     branches: [ "main" ]
 
 jobs:
-  metrics-job:
+  metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Comprehensive Metrics Generation
+      - name: Generate Metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          config_timezone: Asia/Dhaka
+          
+          # Base Configuration
           user: likhonisaac
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: |
+            header
+            activity
+            community
+            repositories
+            metadata
+          
+          # Language Insights
           plugin_languages: yes
-          plugin_languages_details: percentage
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_details: percentage, bytes-size
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used, recently-used
+          
+          # Coding Habits
           plugin_habits: yes
-          plugin_habits_days: 14
+          plugin_habits_days: 30
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          
+          # Achievements Showcase
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
+          
+          # Contribution Calendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-  snake:
+          plugin_isocalendar_duration: full-year
+          
+          # Additional Plugins
+          plugin_stargazers: yes
+          plugin_lines: yes
+          plugin_discussions: yes
+          
+          # Timezone and Appearance
+          config_timezone: Asia/Dhaka
+          config_display: large
+          
+  snake-animation:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
       
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3
+      - name: Generate Snake Animations
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-            dist/forest.gif?color_snake=#34d399&color_dots=#f1f8ff,#216e39,#30a14e,#40c463
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+            dist/ocean-snake.gif
+            dist/forest-snake.gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Deploy Snake Animations
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  profile-3d:
+  3d-contributions:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-      - name: Generate 3D Contribution Calendar
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          
-      - name: Commit & Push
+          MAX_REPOS: 10
+      
+      - name: Commit and Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "Generated 3D Contribution Calendar"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git add profile-3d-contrib/*.svg
+          git commit -m "Update 3D Contribution Graph"
           git push
+        continue-on-error: true
+
+  # Optional: Code Quality and Stats
+  code-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+        
+      - name: Repository Insights
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_lines: yes
+          plugin_lines_delay: 30
+          plugin_lines_sections: base, repositories
+          plugin_lines_repositories_limit: 4
