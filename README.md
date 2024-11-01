@@ -1,69 +1,20 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/likhonisaac/likhonisaac/output/neon.gif" width="100%" alt="Profile Banner" />
-  
+  <img src="https://raw.githubusercontent.com/likhonisaac/likhonisaac/output/banners/dynamic-banner.png" width="100%" alt="Dynamic Banner"/>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38BDAE&center=true&width=600&lines=🚀+Transforming+Ideas+into+Digital+Solutions;💻+Crafting+Scalable+Applications;🌐+Exploring+Cutting-Edge+Technologies" alt="Typing SVG" />
+  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=likhonisaac&show_icons=true&theme=radical&hide_border=true" width="49%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=likhonisaac&theme=radical" width="49%"/>
+  <img src="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,docker,kubernetes,aws" alt="Tech Stack"/>
+  <img src="https://raw.githubusercontent.com/likhonisaac/likhonisaac/output/snake-dark.svg" alt="Snake Animation"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=likhonisaac&theme=radical&no-frame=true" alt="Achievements"/>
   <p>
     <a href="https://t.me/RektDevelopers">
-      <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" />
+      <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
     </a>
-    <img src="https://komarev.com/ghpvc/?username=likhonisaac&style=flat-square&color=38BDAE" />
-    <img src="https://img.shields.io/github/followers/likhonisaac?style=flat-square&color=38BDAE" />
+    <a href="https://likhon.xyz">
+      <img src="https://img.shields.io/badge/Portfolio-38BDAE?style=for-the-badge&logo=web&logoColor=white" alt="Portfolio"/>
+    </a>
   </p>
+  <img src="https://komarev.com/ghpvc/?username=likhonisaac&style=for-the-badge&color=38BDAE" alt="Profile Views"/>
 </div>
-
-## 👨‍💻 Professional Profile
-
-```typescript
-const LikhonSheikh = {
-  name: "Likhon Sheikh",
-  role: "Full Stack Developer 🚀",
-  location: "Bangladesh 🇧🇩",
-  expertise: {
-    languages: ["JavaScript", "TypeScript", "Python", "Go"],
-    frontend: ["React", "Next.js", "Vue", "Tailwind"],
-    backend: ["Node.js", "Express", "Django", "FastAPI"],
-    devops: ["Docker", "Kubernetes", "AWS", "GCP"]
-  },
-  currentMission: [
-    "Crafting scalable applications",
-    "Contributing to open source",
-    "Exploring blockchain development"
-  ]
-}
-```
-
-## 🚀 Technology Ecosystem
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,docker,kubernetes,aws,git,mongodb" />
-</div>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=likhonisaac&show_icons=true&theme=radical&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=likhonisaac&theme=radical"/>
-</div>
-
-## 🏆 Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=likhonisaac&theme=radical&no-frame=true&column=4"/>
-</div>
-
-## 🌐 Connect & Collaborate
-
-<div align="center">
-  <p>
-    💼 Open for innovative opportunities<br>
-    🚀 Let's build transformative solutions<br>
-    📫 Reach out: 
-    <a href="https://t.me/RektDevelopers">Telegram</a> | 
-    <a href="https://likhon.xyz">Portfolio</a>
-  </p>
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/likhonisaac/likhonisaac/output/github-snake.svg" alt="Snake Animation"/>
-</div>
-
-
