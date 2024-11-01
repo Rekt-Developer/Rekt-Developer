@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
   push:
     branches: [ "main" ]
+  fork:
+    types: [created]
 
 env:
   METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
@@ -96,7 +98,7 @@ jobs:
           git push origin output
 
   readme_update:
-    name: 📝 Auto-Generate README in MDX Format
+    name: 📝 Auto-Generate README in MDX
     runs-on: ubuntu-latest
     steps:
       - name: 🔄 Checkout Repository
@@ -148,3 +150,26 @@ jobs:
           git add README.mdx
           git commit -m "📄 Auto-update README.mdx with latest metrics" || exit 0
           git push
+
+  github_pages:
+    name: 📚 Build and Deploy GitHub Pages
+    runs-on: ubuntu-latest
+    needs: [metrics, snake_animation, contribution_calendar, readme_update]
+    steps:
+      - name: 🔄 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 📦 Setup Jekyll
+        run: |
+          gem install bundler
+          gem install jekyll
+
+      - name: 🛠️ Build Jekyll Site
+        run: |
+          jekyll build --source ./ --destination ./_site
+
+      - name: 📤 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
