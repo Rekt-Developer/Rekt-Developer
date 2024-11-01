@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Dynamic Header -->
-  <img src="https://raw.githubusercontent.com/likhonisaac/likhonisaac/output/animated-header.svg" alt="Likhon Sheikh" width="100%" />
+  <img src="https://raw.githubusercontent.com/likhonisaac/likhonisaac/logo.png" alt="Likhon Sheikh" width="100%" />
   
   <!-- Dynamic Badges -->
   <p align="center">
