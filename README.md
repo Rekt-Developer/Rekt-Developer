@@ -12,10 +12,6 @@
   </p>
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/likhonisaac/likhonisaac/output/skills-animation.svg" alt="Skills" width="100%" />
-</div>
-
 ## 👨‍💻 About Me
 ```typescript
 class TechEnthusiast {
