@@ -20,22 +20,22 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Step 2: Setup Node.js
+      # Step 2: Setup Node.js (updated to Node 20)
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
           cache: npm
-      
-      # Step 3: Install Dependencies
-      - name: Install Dependencies
+
+      # Step 3: Check for or Create `package.json` and install dependencies
+      - name: Ensure package.json and package-lock.json Exist
         run: |
-          if [ -f "package.json" ]; then
-            npm install  # Install and generate package-lock.json if not present
-          else
-            echo "{}" > package.json  # Create a minimal package.json if none exists
-            npm install
+          # Create package.json if it doesn't exist
+          if [ ! -f "package.json" ]; then
+            echo '{}' > package.json
           fi
+          # Install dependencies and create package-lock.json
+          npm install
 
       # Step 4: Create Required Directories
       - name: Create Directories
