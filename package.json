@@ -1,1 +1,15 @@
-
+{
+  "name": "awesome-github-achievement",
+  "version": "1.0.0",
+  "description": "Automation and badge tracking for GitHub achievements.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/likhonisaac/awesome-github-achievement.git"
+  },
+  "author": "likhonisaac",
+  "license": "MIT"
+}
