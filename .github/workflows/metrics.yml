@@ -12,121 +12,118 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      NODE_VERSION: '16'
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      USERNAME: ${{ github.repository_owner }}
-      EMAIL: "github-actions[bot]@users.noreply.github.com"
-      NAME: "github-actions[bot]"
-
+    
     steps:
-      # Step 1: Checkout Code
+      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # Step 2: Set up Node.js
+      # Step 2: Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: 16
           cache: npm
+      
+      # Step 3: Install Dependencies
+      - name: Install Dependencies
+        run: |
+          if [ -f "package.json" ]; then
+            npm install  # Install and generate package-lock.json if not present
+          else
+            echo "{}" > package.json  # Create a minimal package.json if none exists
+            npm install
+          fi
 
-      # Step 3: Create Necessary Directories
-      - name: Create Required Directories
+      # Step 4: Create Required Directories
+      - name: Create Directories
         run: mkdir -p dist profile-3d-contrib assets
 
-      # Step 4: Generate Snake Animation
+      # Step 5: Generate Snake Animation
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ env.USERNAME }}
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
             dist/ocean-dark.gif?color_snake=orange&color_dots=#161b22,#0d1117,#161b22,#0d1117,#161b22
         env:
-          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 5: Generate 3D Contribution Calendar
+      # Step 6: Generate 3D Contribution Calendar
       - name: Generate 3D Contribution Calendar
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
-          USERNAME: ${{ env.USERNAME }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
 
-      # Step 6: Create Dynamic Banners
-      - name: Generate Dynamic Banners
+      # Step 7: Generate Dynamic Banners
+      - name: Generate Banners
         run: |
-          # Light Theme Banner
           curl -o assets/banner-light.gif \
           "https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=38BDAE&center=true&vCenter=true&width=435&lines=Welcome+to+my+Profile!;Full+Stack+Developer;Open+Source+Enthusiast;Tech+Explorer"
           
-          # Dark Theme Banner
           curl -o assets/banner-dark.gif \
           "https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=38BDAE&center=true&vCenter=true&width=435&lines=Welcome+to+my+Profile!;Full+Stack+Developer;Open+Source+Enthusiast;Tech+Explorer&bg=0D1117"
 
-      # Step 7: Generate Metrics SVG
+      # Step 8: Generate Metrics SVG
       - name: Generate Metrics SVG
         run: |
           curl -o dist/metrics.svg \
-          "https://github-readme-stats.vercel.app/api?username=${{ env.USERNAME }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=38BDAE"
+          "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=38BDAE"
 
-      # Step 8: Generate Activity Graph SVG
+      # Step 9: Generate Activity Graph
       - name: Generate Activity Graph
         run: |
           curl -o dist/activity.svg \
-          "https://github-readme-activity-graph.vercel.app/graph?username=${{ env.USERNAME }}&theme=tokyo-night&hide_border=true&bg_color=0D1117"
+          "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=tokyo-night&hide_border=true&bg_color=0D1117"
 
-      # Step 9: Update Profile Content in README
-      - name: Update Profile Content
+      # Step 10: Update Profile Stats in README
+      - name: Update Profile Stats
         run: |
-          # Retrieve repository stats
-          REPOS=$(curl -s -H "Authorization: token ${{ env.GITHUB_TOKEN }}" \
-            "https://api.github.com/users/${{ env.USERNAME }}/repos?per_page=100")
+          REPOS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/users/${{ github.repository_owner }}/repos?per_page=100")
           
-          # Calculate metrics
           STARS=$(echo $REPOS | jq -r 'map(.stargazers_count) | add')
           FORKS=$(echo $REPOS | jq -r 'map(.forks_count) | add')
-          CONTRIBUTIONS=$(curl -s -H "Authorization: token ${{ env.GITHUB_TOKEN }}" \
-            "https://api.github.com/search/commits?q=author:${{ env.USERNAME }}" \
+          CONTRIBUTIONS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/search/commits?q=author:${{ github.repository_owner }}" \
             | jq -r '.total_count')
           
-          # Update README with dynamic values
           sed -i "s/\"stars\": [0-9]*/\"stars\": $STARS/" README.md
           sed -i "s/\"forks\": [0-9]*/\"forks\": $FORKS/" README.md
           sed -i "s/\"contributions\": [0-9]*/\"contributions\": $CONTRIBUTIONS/" README.md
-          
-          # Update the last updated timestamp
           sed -i "s/Last Updated: .*/Last Updated: $(date '+%Y-%m-%d %H:%M:%S UTC')/" README.md
 
-      # Step 10: Optimize Images
+      # Step 11: Optimize Images
       - name: Optimize Images
         run: |
           sudo apt-get update && sudo apt-get install -y optipng
           find dist assets -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" \) -exec optipng -o5 {} \;
 
-      # Step 11: Commit Changes
-      - name: Commit Changes
+      # Step 12: Commit Changes
+      - name: Commit and Push Changes
         run: |
-          git config --local user.email "${{ env.EMAIL }}"
-          git config --local user.name "${{ env.NAME }}"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add -A
           git commit -m "chore: update profile content [skip ci]" || exit 0
           git push
 
-      # Step 12: Deploy to GitHub Pages
+      # Step 13: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ env.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
           force_orphan: true
-          user_name: ${{ env.NAME }}
-          user_email: ${{ env.EMAIL }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'chore: update profile assets'
 
 concurrency:
