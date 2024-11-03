@@ -2,7 +2,6 @@
 
 <div align="center">
 
-## 🌟 Welcome to My Profile! 🌟
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=38BDAE&center=true&vCenter=true&width=435&lines=Welcome+to+my+Profile!;I'm+Likhon+Isaac%2C+a+Full+Stack+Developer;Open+Source+Enthusiast;Tech+Explorer+from+Bangladesh" alt="Typing SVG" />
 
