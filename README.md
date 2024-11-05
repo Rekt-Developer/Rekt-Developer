@@ -100,7 +100,7 @@ const Likhon = {
     <b>Open for collaborations and exciting projects!</b><br>
     💼 Available for new opportunities<br>
     📫 Reach me on <a href="https://github.com/likhonisaac">GitHub</a> or via email<br>
-    🌐 Visit my website: <a href="https://likhon.xyz">likhon.xyz</a>
+    🌐 Visit my website: <a href="https://likhon.dev">likhon.dev</a>
   </p>
 </div>
 
