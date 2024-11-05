@@ -76,8 +76,6 @@ const Likhon = {
   <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman,figma" />
 </div>
 
-## 📈 Detailed Metrics
-
 <div align="center">
   <img src="dist/metrics.svg" alt="Detailed Metrics" />
 </div>
@@ -94,9 +92,6 @@ const Likhon = {
   <img src="https://github-profile-trophy.vercel.app/?username=likhonisaac&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15" alt="Trophies" />
 </div>
 
-## 🌊 Ocean Animation
-
-<img src="dist/ocean.gif" alt="Ocean Animation" />
 
 ## 🤝 Let's Connect
 
