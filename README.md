@@ -1,166 +1,56 @@
-# 🚀 রেকট ডেভেলপার | Blockchain Security Architect
-
 <div align="center">
-  <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=200&section=header&text=রেকট%20ডেভেলপার&fontSize=60&animation=fadeIn&fontColor=ffffff" 
-    alt="Profile Banner" 
-  />
 
-  <img 
-    src="https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=700&size=24&duration=2000&pause=1000&color=FF0000&center=true&vCenter=true&random=false&width=600&height=60&lines=ব্লকচেইন+ডেভেলপার+%7C+Bangladesh;সিকিউরিটি+আর্কিটেক্ট+%7C+Web3+Specialist" 
-    alt="Typing Introduction" 
-  />
-  
-  <br />
-  
-  <img 
-    src="https://cdn.pixabay.com/animation/2022/08/01/03/43/03-43-08-674_512.gif" 
-    alt="Animation" 
-    width="200"
-  />
-  <img 
-    src="https://tenor.com/mxBJSRBbMc9.gif" 
-    alt="Animation" 
-    width="200"
-  />
-  <img 
-    src="https://i0.wp.com/www.memelate.com/wp-content/uploads/2021/09/happy-kazi-maruf.png?fit=640%2C474&ssl=1" 
-    alt="Profile Picture" 
-    width="200"
-  />
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=200&section=header&text=REKT%20DEVELOPER&fontSize=60&animation=fadeIn&fontColor=ffffff)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=700&size=24&duration=2000&pause=1000&color=FF0000&center=true&vCenter=true&random=false&width=600&height=60&lines=Web3+%26+Blockchain+Developer;Smart+Contract+Security+Expert;DApps+%26+DeFi+Specialist)](https://git.io/typing-svg)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=for-the-badge&color=red)
+[![Telegram](https://img.shields.io/badge/Join_Community-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
+
 </div>
 
-## 🌍 About Me
-
+## 🔥 Stats
 <div align="center">
-  🇧🇩 Proudly Bangladeshi | 🔒 Blockchain Security Specialist
 
-  <span 
-    style="background-color: #ff0000; color: white; padding: 4px 8px;border-radius: 12px;font-size: 0.8em;margin: 0 4px;"
-  >Web3 Expert</span>
-  <span 
-    style="background-color: #ff0000; color: white; padding: 4px 8px;border-radius: 12px;font-size: 0.8em;margin: 0 4px;"
-  >Decentralized Systems</span>
-  <span 
-    style="background-color: #ff0000; color: white; padding: 4px 8px;border-radius: 12px;font-size: 0.8em;margin: 0 4px;"
-  >Smart Contract Security</span>
+[![GitHub Streak](https://streak-stats.demolab.com?user=Rekt-Developer&theme=dark&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF)](https://git.io/streak-stats)
+
 </div>
+
+## 💫 About
+<div style="width:100%;height:0;padding-bottom:73%;position:relative;"><iframe src="https://giphy.com/embed/GH0oxplrFrqPC" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/funny-memes-GH0oxplrFrqPC">via GIPHY</a></p>
 
 ## 🛠 Tech Stack
-
 <div align="center">
-  <div 
-    style="display: inline-flex;align-items:center;margin:0 10px;padding:5px 10px;border-radius:20px;background-color:#f4f4f4;"
-  >
-    <img 
-      src="https://cdn.simpleicons.org/solidity" 
-      alt="Solidity" 
-      width="20" 
-      height="20" 
-      style="margin-right:8px;" 
-    />
-    <span>Solidity - Expert</span>
-  </div>
-  <div 
-    style="display:inline-flex;align-items:center;margin:0 10px;padding:5px 10px;border-radius:20px;background-color:#f4f4f4;"
-  >
-    <img 
-      src="https://cdn.simpleicons.org/ethereum" 
-      alt="Ethereum" 
-      width="20" 
-      height="20" 
-      style="margin-right:8px;" 
-    />
-    <span>Ethereum - Advanced</span>
-  </div>
-  <div 
-    style="display:inline-flex;align-items:center;margin:0 10px;padding:5px 10px;border-radius:20px;background-color:#f4f4f4;"
-  >
-    <img 
-      src="https://cdn.simpleicons.org/typescript" 
-      alt="TypeScript" 
-      width="20" 
-      height="20" 
-      style="margin-right:8px;" 
-    />
-    <span>TypeScript - Professional</span>
-  </div>
-  <div 
-    style="display:inline-flex;align-items:center;margin:0 10px;padding:5px 10px;border-radius:20px;background-color:#f4f4f4;"
-  >
-    <img 
-      src="https://cdn.simpleicons.org/python" 
-      alt="Python" 
-      width="20" 
-      height="20" 
-      style="margin-right:8px;" 
-    />
-    <span>Python - Advanced</span>
-  </div>
+
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
+
 </div>
 
-## 🔥 Performance Metrics
-
+## 📊 GitHub Stats
 <div align="center">
-  <img 
-    src="https://streak-stats.demolab.com?user=Rekt-Developer&theme=radical&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF" 
-    alt="GitHub Streak" 
-  />
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rekt-Developer&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FF0000)
+
+![Rekt's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rekt-Developer&show_icons=true&theme=dark&hide_border=true&bg_color=000000&ring_color=FF0000&icon_color=FF0000&title_color=FF0000)
+
 </div>
 
-## 🌐 Professional Focus
-
-- 🔒 **Blockchain Security Architecture**
-- 💡 **Decentralized System Design**
-- 🚀 **Web3 Innovation**
-- 🛡️ **Smart Contract Auditing**
-
-## 🏆 Achievements
-
-1. **Blockchain Security Expert**
-   - Specialized in preventing and mitigating smart contract vulnerabilities
-   - Developed robust security frameworks for decentralized applications
-
-2. **Web3 Innovation Specialist**
-   - Contributed to cutting-edge blockchain infrastructure
-   - Implemented scalable and secure decentralized solutions
-
-## 🌍 National Symbols
+## 🎯 Recent Activity Graph
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rekt-Developer&theme=high-contrast&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=true)
 
 <div align="center">
-  <img 
-    src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Government_Seal_of_Bangladesh.svg" 
-    alt="Government Seal" 
-    width="200" 
-  />
-  <img 
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bangladesh_%28orthographic_projection%29.svg/640px-Bangladesh_%28orthographic projection%29.svg.png" 
-    alt="Orthographic Projection" 
-    width="200" 
-  />
+
+### 🤝 Connect & Follow
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rekt-Developer)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
+
 </div>
 
-## 📫 Connect With Me
-
-<div align="center">
-  <a href="https://t.me/RektDevelopers">
-    <img 
-      src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" 
-      alt="Telegram" 
-    />
-  </a>
-  <a href="mailto:your-email@example.com">
-    <img 
-      src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" 
-      alt="Email" 
-    />
-  </a>
-</div>
-
----
-
-<div align="center">
-  🇧🇩 **Proudly Representing Bangladesh in Global Tech Innovation** 🌐
-
-  ![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&color=red)
-</div>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=100&section=footer)
