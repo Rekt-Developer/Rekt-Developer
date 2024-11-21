@@ -1,5 +1,3 @@
-# 🌟 Rekt Developer 🌟
-
 <div align="center">
 
 <picture>
