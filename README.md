@@ -80,7 +80,7 @@
 ## 🌟 Websites & Portfolios
 - 🌐 [likhon.dev](https://likhon.dev)
 - 🌐 [likhon.xyz](https://likhon.xyz)
-- 🌐 [likhonsheikh.com](https://likhonsheikh.
+- 🌐 [likhonsheikh.com](https://likhonsheikh.com)
 
 <div align="center">
 
