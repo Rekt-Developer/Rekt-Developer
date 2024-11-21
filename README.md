@@ -5,11 +5,11 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=700&size=24&duration=2000&pause=1000&color=FF0000&center=true&vCenter=true&random=false&width=600&height=60&lines=ব্লকচেইন+ডেভেলপার+%7C+Bangladesh;সিকিউরিটি+আর্কিটেক্ট+%7C+Web3+Specialist)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=for-the-badge&color=red)
-[![Telegram](https://img.shields.io/badge/যোগাযোগ_টেলিগ্রাম-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
+[![Telegram](https://img.shields.io/badge/DM_ME_ON_TELEGRAM-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
 
 </div>
 
-## 🔥 পারফরম্যান্স পরিসংখ্যান | Performance Stats
+## 🔥 পারফরম্যান্স  | Performance 
 
 <div align="center">
 
@@ -17,7 +17,7 @@
 
 </div>
 
-🔬 কোডিং গ্রাফ | Activity Landscape
+🔬  গ্রাফ | Activity 
 
 <div align="center">
 
