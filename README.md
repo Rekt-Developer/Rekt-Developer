@@ -108,23 +108,6 @@
 
 </div>
 
-## 🌐 Connect & Follow
-
-<div align="center">
-
-- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&size=large&theme=night">
-  <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&size=large&theme=default">
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&size=large&theme=default">
-</picture>
-- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&size=large&theme=night">
-  <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&size=large&theme=default">
-  <img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&size=large&theme=default">
-</picture>
-
-</div>
-
 ---
 
 Let's create something extraordinary in the Web3 space! I'm excited to collaborate and explore new possibilities.
