@@ -1,39 +1,82 @@
 # 🌟 Rekt Developer 🌟
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=300§ion=header&text=Rekt%20Developer&fontSize=80&animation=fadeIn&fontColor=ffffff)
+<div align="center">
 
-I'm a Web3 and Blockchain Developer, a smart contract security expert, and a DeFi specialist. I'm passionate about building secure and cutting-edge decentralized solutions.
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=300&section=header&text=REKT%20DEVELOPER&fontSize=80&animation=fadeIn&fontColor=ffffff)
+
+[![Typing SVG](https://readme-typing-svg.com?font=IBM+Plex+Mono&weight=700&size=28&duration=2500&pause=1500&color=FF0000&center=true&vCenter=true&random=false&width=700&height=70&lines=Web3+%26+Blockchain+Developer;Smart+Contract+Security+Expert;DApps+%26+DeFi+Specialist)](https://git.io/typing-svg)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=for-the-badge&color=red)
+[![Telegram](https://img.shields.io/badge/Join_Community-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
+
+</div>
+
+## 🔥 Stats
+
+<div align="center">
+
+[![GitHub Streak](https://github-streak-stats.herokuapp.com?user=Rekt-Developer&theme=dark&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF)](https://git.io/streak-stats)
+
+</div>
 
 ## 🌐 Tech Stack
 
-- [![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white&size=large)](https://soliditylang.org/)
-- [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&size=large)](https://www.typescriptlang.org/)
-- [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&size=large)](https://www.python.org/)
-- [![Rust](https://img.shields.io/badge/rust-000000?style=for-the-badge&logo=rust&logoColor=white&size=large)](https://www.rust-lang.org/)
-- [![Node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&size=large)](https://nodejs.org/)
-- [![React](https://img.shields.io/badge/react-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&size=large)](https://reactjs.org/)
-- [![Web3.js](https://img.shields.io/badge/web3.js-f16822?style=for-the-badge&logo=web3.js&logoColor=white&size=large)](https://web3js.readthedocs.io/)
-- [![Ethereum](https://img.shields.io/badge/ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white&size=large)](https://ethereum.org/)
+<div align="center">
 
-## 📈 GitHub Stats
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white&size=large)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&size=large)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&size=large)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white&size=large)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&size=large)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&size=large)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white&size=large)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white&size=large)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?Username=RektDeveloper&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FF0000&size=200)](https://github.com/RektDeveloper)
+</div>
 
-[![Rekt's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RektDeveloper&show_icons=true&theme=dark&hide_border=true&bg_color=000000&ring_color=FF0000&icon_color=ff0000&title_color=FF0000&size=200)](https://github.com/RektDeveloper)
+## 📊 GitHub Stats
 
-## 🌟 Recent Activity
+<div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=RektDeveloper&theme=high-contrast&color=ff0000&line=ff0000&point=FFFFFF&area=true&hide_border=true&size=200)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Rekt-Developer&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FF0000&size=200)
 
-## 🌐 Connect with Me
+![Rekt's GitHub stats](https://github-readme-stats.vercel.app/api?username=Rekt-Developer&show_icons=true&theme=dark&hide_border=true&bg_color=000000&ring_color=FF0000&icon_color=FF0000&title_color=FF0000&size=200)
 
-- [GitHub](https://github.com/RektDeveloper)
-- [Telegram](https://t.me/RektDevelopers)
+</div>
+
+## 🎯 Recent Activity Graph
+
+<div align="center">
+
+![Activity Graph](https://activity-graph.herokuapp.com/graph?username=Rekt-Developer&theme=high-contrast&bg_color=000000&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=true&size=200)
+
+</div>
+
+## 🌳 Project Tree
+
+<div align="center">
+
+![Project Tree](https://github-readme-tree.vercel.app/api?username=Rekt-Developer&theme=dark&hide_border=true&bg_color=000000&title=My%20Projects&title_color=FF0000)
+
+</div>
+
+## 🌐 Connect & Follow
+
+<div align="center">
+
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&size=large)](https://github.com/Rekt-Developer)
+- [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&size=large)](https://t.me/RektDevelopers)
+
+</div>
 
 ---
 
-Let's create something extraordinary together! I'm excited to collaborate and explore new horizons in the Web3 space.
+Let's embark on an exciting Web3 journey together! I'm eager to collaborate and create groundbreaking solutions.
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=150§ion=footer)
+<div align="center">
 
-![Meme Footer](https://pngimg.com/d/leonardo_dicaprio_PNG2.png)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=150&section=footer)
+
+![Meme Footer](https://media.giphy.com/media/3o7TKY254685m48392/giphy.gif)
+
+</div>
