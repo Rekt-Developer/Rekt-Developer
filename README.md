@@ -17,66 +17,6 @@
 
 </div>
 
-## 💫 আমার পরিচিতি | Professional Identity
-
-```typescript
-const LikhonSheikh = {
-    nationality: "🇧🇩 Bangladesh",
-    role: "Blockchain Security Architect",
-    domain: ["Web3 Security", "Decentralized Systems", "Smart Contracts"],
-    mission: "Revolutionizing Digital Infrastructure",
-    expertise: {
-        blockchain: ["Smart Contract Development", "Security Architecture"],
-        regions: ["South Asian Tech Innovator"],
-        vision: "Empowering Global Decentralization"
-    }
-};
-
-🛠 প্রযুক্তি পরিমণ্ডল | Technology Ecosystem
-
-<div align="center">
-
-
-</div>
-
-
-📊 কোডিং পরিসংখ্যান | Coding Metrics
-
-<div align="center">
-
-
-</div>
-
-
-🌍 আন্তর্জাতিক প্রভাব | Global Impact
-
-ডোমেন	দক্ষতা	প্রভাব
-Web3 Security	🔒🔒🔒🔒🔒	Global
-Blockchain Architecture	🌐🌐🌐🌐	Transformative
-Decentralized Systems	💡💡💡💡	Innovative
-
-🎵 বাংলাদেশের প্রতীকী সঙ্গীত | Symbolic Audio
-
-আমার সোনার বাংলা (Instrumental by US Navy Band)
-
-চল চল চল (Instrumental “Metal”)
-
-🖼 বাংলাদেশের প্রতীকসমূহ | National Symbols of Bangladesh
-
-<div align="center">
-
-
-</div>
-
-
-🚀 সংযোগ মাধ্যম | Professional Networks
-
-<div align="center">
-
-
-</div>
-
-
 🔬 কোডিং গ্রাফ | Activity Landscape
 
 <div align="center">
