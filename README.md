@@ -76,7 +76,11 @@
 
 </div>
 
-## 📊 GitHub Stats
+
+## 🌟 Websites & Portfolios
+- 🌐 [likhon.dev](https://likhon.dev)
+- 🌐 [likhon.xyz](https://likhon.xyz)
+- 🌐 [likhonsheikh.com](https://likhonsheikh.
 
 <div align="center">
 
