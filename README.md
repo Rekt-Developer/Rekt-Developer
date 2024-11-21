@@ -1,65 +1,89 @@
-# 🔒 রেকট ডেভেলপার | Blockchain Security Architect
-
-## 🌐 Decentralized Innovation Nexus
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=F70000&center=true&width=900&lines=Blockchain+Architect+%7C+Cryptographic+Alchemist;Web3+Security+Wizard+%7C+Decentralized+Systems+Engineer" alt="Professional Typing Animation"/>
+
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=200&section=header&text=রেকট%20ডেভেলপার&fontSize=60&animation=fadeIn&fontColor=ffffff)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=700&size=24&duration=2000&pause=1000&color=FF0000&center=true&vCenter=true&random=false&width=600&height=60&lines=ব্লকচেইন+ডেভেলপার+%7C+Bangladesh;সিকিউরিটি+আর্কিটেক্ট+%7C+Web3+Specialist)](https://git.io/typing-svg)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=for-the-badge&color=red)
+[![Telegram](https://img.shields.io/badge/যোগাযোগ_টেলিগ্রাম-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
+
 </div>
 
-## 💻 Technology Quantum
+## 🔥 পারফরম্যান্স পরিসংখ্যান | Performance Stats
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Rekt-Developer&theme=radical&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF)](https://git.io/streak-stats)
+
+</div>
+
+## 💫 আমার পরিচিতি | Professional Identity
 
 ```typescript
-interface BlockchainEngineer {
-  name: 'Likhon Sheikh';
-  domains: ['Web3 Security', 'Decentralized Systems', 'Cryptographic Engineering'];
-  philosophicalSignature: () => 'Code is the Revolution, Blockchain is the Canvas';
-  currentMission: 'Transforming Digital Sovereignty';
-}
-```
+const LikhonSheikh = {
+    nationality: "🇧🇩 Bangladesh",
+    role: "Blockchain Security Architect",
+    domain: ["Web3 Security", "Decentralized Systems", "Smart Contracts"],
+    mission: "Revolutionizing Digital Infrastructure",
+    expertise: {
+        blockchain: ["Smart Contract Development", "Security Architecture"],
+        regions: ["South Asian Tech Innovator"],
+        vision: "Empowering Global Decentralization"
+    }
+};
 
-## 🛡️ Advanced Technological Spectrum
-
-<div align="center">
-
-### Blockchain Infrastructure
-![Solidity](https://img.shields.io/badge/Solidity-Expert-FF0000?style=for-the-badge&logo=solidity&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-Core-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
-![Web3.js](https://img.shields.io/badge/Web3.js-Mastery-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
-
-### Advanced Programming Paradigms
-![TypeScript](https://img.shields.io/badge/TypeScript-Ninja-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-Warrior-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-Alchemist-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-</div>
-
-## 🔬 Innovation Matrix
-
-| Domain | Expertise Level | Impact Quotient |
-|--------|-----------------|-----------------|
-| Cryptographic Security | 🔒🔒🔒🔒🔒 | Revolutionary |
-| Decentralized Systems | 🌐🌐🌐🌐 | Transformative |
-| Smart Contract Architecture | 📜📜📜📜 | Critical |
-
-## 🚀 Professional Coordinates
+🛠 প্রযুক্তি পরিমণ্ডল | Technology Ecosystem
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-RektDevelopers-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
-[![Website](https://img.shields.io/badge/Portfolio-likhon.dev-FF0000?style=for-the-badge)](https://likhon.xyz)
-[![Twitter](https://img.shields.io/badge/@RektDeveloper-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/RektDeveloper)
-[![GitHub](https://img.shields.io/badge/GitHub-Rekt--Developer-black?style=for-the-badge&logo=github)](https://github.com/Rekt-Developer)
 
 </div>
 
-## 📊 Performance Quantum
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Rekt-Developer&theme=radical&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FFFFFF)
+📊 কোডিং পরিসংখ্যান | Coding Metrics
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rekt-Developer&layout=compact&theme=radical&hide_border=true)
+<div align="center">
 
-## 💡 Philosophical Code Snippet
 
-```python
-def blockchain_wisdom():
-    return "In the universe of code, decentralization i
+</div>
+
+
+🌍 আন্তর্জাতিক প্রভাব | Global Impact
+
+ডোমেন	দক্ষতা	প্রভাব
+Web3 Security	🔒🔒🔒🔒🔒	Global
+Blockchain Architecture	🌐🌐🌐🌐	Transformative
+Decentralized Systems	💡💡💡💡	Innovative
+
+🎵 বাংলাদেশের প্রতীকী সঙ্গীত | Symbolic Audio
+
+আমার সোনার বাংলা (Instrumental by US Navy Band)
+
+চল চল চল (Instrumental “Metal”)
+
+🖼 বাংলাদেশের প্রতীকসমূহ | National Symbols of Bangladesh
+
+<div align="center">
+
+
+</div>
+
+
+🚀 সংযোগ মাধ্যম | Professional Networks
+
+<div align="center">
+
+
+</div>
+
+
+🔬 কোডিং গ্রাফ | Activity Landscape
+
+<div align="center">
+
+
+🇧🇩 Proudly Representing Bangladesh in Global Tech Innovation 🌐
+
+</div>
+
+
