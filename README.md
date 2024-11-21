@@ -110,10 +110,6 @@
 
 ---
 
-Let's create something extraordinary in the Web3 space! I'm excited to collaborate and explore new possibilities.
-
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=150&section=footer&theme=night">
   <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=150&
