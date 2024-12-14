@@ -1,7 +1,10 @@
 <!-- Hidden SEO Content for Crawlers and Bots -->
+
+
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Rekt-Developer's GitHub profile showcases high-level projects in blockchain development, including Web3, Ethereum, Solidity, and DApp creation.">
 <meta name="keywords" content="Rekt Developer, Web3, Blockchain Developer, Ethereum, Solidity, DApps, Decentralized Applications, Smart Contracts">
+<meta name="alternative" content= "likhon sheikh,likhon sheikh music,baccha2-likee(sheikh aornob hassan likhon),sheikh ahmadullah waz,mohtaram sheikh sahab multan,shaikh sahab multan,shaikh ahmadullah waz,shaikh ahmadullah new waz,shaikh ahmadullah waz 2022,shaikh ahmadullah new waz 2022,phonk | renox,khobor bangla,nixon chowdhury,mahoraga punk song,shorts,health,shop ki dua,dua for shop,#motivation,bangla khabar,anime trap song,jjk fusion music,bcs preparation,#bcspreparation'
 <meta name="author" content="Likhon Sheikh">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Rekt Developer - Blockchain Developer & Innovator">
