@@ -1,10 +1,7 @@
 <!-- Hidden SEO Content for Crawlers and Bots -->
-
-
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Rekt-Developer's GitHub profile showcases high-level projects in blockchain development, including Web3, Ethereum, Solidity, and DApp creation.">
 <meta name="keywords" content="Rekt Developer, Web3, Blockchain Developer, Ethereum, Solidity, DApps, Decentralized Applications, Smart Contracts">
-<meta name="alternative" content= "likhon sheikh,likhon sheikh music,baccha2-likee(sheikh aornob hassan likhon),sheikh ahmadullah waz,mohtaram sheikh sahab multan,shaikh sahab multan,shaikh ahmadullah waz,shaikh ahmadullah new waz,shaikh ahmadullah waz 2022,shaikh ahmadullah new waz 2022,phonk | renox,khobor bangla,nixon chowdhury,mahoraga punk song,shorts,health,shop ki dua,dua for shop,#motivation,bangla khabar,anime trap song,jjk fusion music,bcs preparation,#bcspreparation'
 <meta name="author" content="Likhon Sheikh">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Rekt Developer - Blockchain Developer & Innovator">
@@ -13,28 +10,42 @@
 <meta property="og:url" content="https://github.com/Rekt-Developer">
 <meta property="og:site_name" content="Rekt Developer - GitHub">
 <meta property="og:locale" content="en_US">
-<meta property="og:updated_time" content="2024-12-14T00:00:00+00:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Rekt Developer - Blockchain Developer & Innovator">
 <meta name="twitter:description" content="Explore the blockchain projects of Likhon Sheikh, a Blockchain Developer specializing in Ethereum, Rust, and DApp development.">
 <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/69582352?v=4">
 <meta name="twitter:site" content="@Rekt_Developer">
 <meta name="twitter:creator" content="@Rekt_Developer">
-<meta name="github-verification" content="true">
-<meta name="telegram-verification" content="true">
-<meta name="email-verification" content="true">
 <!-- End Hidden SEO Content -->
 
 <div align="center">
 
-![REKT DEVELOPER Banner](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=300&section=header&text=REKT%20DEVELOPER&fontSize=80&animation=fadeIn&fontColor=ffffff)
+![Rekt Developer Banner](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=200&section=header&text=REKT%20DEVELOPER&fontSize=50&animation=fadeIn&fontColor=ffffff)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=700&size=28&duration=2500&pause=1500&color=FF0000&center=true&vCenter=true&random=false&width=700&height=70&lines=Web3+%26+Blockchain+Developer;Smart+Contract+Security+Expert;DApps+%26+DeFi+Specialist)](https://git.io/typing-svg)
 
-![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=for-the-badge&color=red)
+![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=flat-square&color=red)
 [![Telegram](https://img.shields.io/badge/Join_Community-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
 
 </div>
+
+## Who is Rekt Developer?
+
+Likhon Sheikh, also known as *Rekt Developer*, is a passionate **Blockchain Developer** and innovator specializing in **Web3 technologies**. His expertise spans **Ethereum**, **Solidity**, **Rust**, and **Smart Contracts**, with a focus on building decentralized applications (DApps) and enhancing blockchain security.
+
+## What is Web3?
+
+**Web3** represents the next evolution of the internet, where users control their own data and interact with decentralized networks. This shift allows for more secure, privacy-focused, and transparent applications compared to the traditional centralized web.
+
+## What is Blockchain Development?
+
+**Blockchain Development** involves the creation of decentralized, tamper-proof systems that enable secure transactions and data exchanges. It is the foundation for technologies like **Cryptocurrencies** (e.g., Bitcoin, Ethereum), **Smart Contracts**, and **DApps**.
+
+## Types of Blockchain Projects Likhon is Involved In
+
+- **Ethereum Development**: Working with **Solidity** to build and deploy smart contracts on the **Ethereum blockchain**.
+- **DeFi Solutions**: Building decentralized finance solutions that operate on blockchain protocols.
+- **Smart Contracts**: Developing autonomous contract systems that facilitate trustless transactions without intermediaries.
 
 ## 🔥 Stats
 
@@ -48,14 +59,14 @@
 
 <div align="center">
 
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3dotjs&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
 
 </div>
 
