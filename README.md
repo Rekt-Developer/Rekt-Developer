@@ -9,7 +9,10 @@
   <!-- Stats Section -->
   ![GitHub Streak](https://streak-stats.demolab.com?user=Rekt-Developer&theme=dark&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF)
 
+  <!-- Profile Views -->
   ![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=flat-square&color=red)
+
+  <!-- Telegram Badge -->
   [![Telegram Badge](https://img.shields.io/badge/Join_Community-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
 
   <!-- Tech Stack Section -->
