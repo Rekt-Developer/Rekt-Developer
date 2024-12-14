@@ -33,14 +33,6 @@
 
 Likhon Sheikh, also known as *Rekt Developer*, is a passionate **Blockchain Developer** and innovator specializing in **Web3 technologies**. His expertise spans **Ethereum**, **Solidity**, **Rust**, and **Smart Contracts**, with a focus on building decentralized applications (DApps) and enhancing blockchain security.
 
-## What is Web3?
-
-**Web3** represents the next evolution of the internet, where users control their own data and interact with decentralized networks. This shift allows for more secure, privacy-focused, and transparent applications compared to the traditional centralized web.
-
-## What is Blockchain Development?
-
-**Blockchain Development** involves the creation of decentralized, tamper-proof systems that enable secure transactions and data exchanges. It is the foundation for technologies like **Cryptocurrencies** (e.g., Bitcoin, Ethereum), **Smart Contracts**, and **DApps**.
-
 ## Types of Blockchain Projects Likhon is Involved In
 
 - **Ethereum Development**: Working with **Solidity** to build and deploy smart contracts on the **Ethereum blockchain**.
