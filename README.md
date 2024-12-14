@@ -34,23 +34,6 @@
     <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white" alt="Ethereum"/>
   </div>
 
-  <!-- Websites Section -->
-  <h4>🌟 Websites & Portfolios</h4>
-  <ul style="text-align: left; padding-left: 20px;">
-    <li><a href="https://likhon.dev" target="_blank">likhon.dev</a></li>
-    <li><a href="https://likhon.xyz" target="_blank">likhon.xyz</a></li>
-    <li><a href="https://likhonsheikh.com" target="_blank">likhonsheikh.com</a></li>
-  </ul>
-
-  <!-- Stats and GitHub Info Section -->
-  <div align="center" style="margin-top: 20px;">
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rekt-Developer&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FF0000" alt="Top Languages"/>
-    </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img src="https://github-readme-stats.vercel.app/api?username=Rekt-Developer&show_icons=true&theme=dark&hide_border=true&bg_color=000000&ring_color=FF0000&icon_color=FF0000&title_color=FF0000" alt="GitHub Stats"/>
-    </a>
-  </div>
 
   <!-- Recent Activity Graph Section -->
   <h4>🎯 Recent Activity Graph</h4>
