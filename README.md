@@ -23,7 +23,8 @@
 ![Rekt Developer Banner](https://capsule-render.vercel.app/api?type=waving&color=ff0000&height=200&section=header&text=REKT%20DEVELOPER&fontSize=50&animation=fadeIn&fontColor=ffffff)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=700&size=28&duration=2500&pause=1500&color=FF0000&center=true&vCenter=true&random=false&width=700&height=70&lines=Web3+%26+Blockchain+Developer;Smart+Contract+Security+Expert;DApps+%26+DeFi+Specialist)](https://git.io/typing-svg)
-
+<div align="center">
+[![GitHub Streak](https://streak-stats.demolab.com?user=Rekt-Developer&theme=dark&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF)](https://git.io/streak-stats)
 ![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=flat-square&color=red)
 [![Telegram](https://img.shields.io/badge/Join_Community-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RektDevelopers)
 
@@ -32,18 +33,6 @@
 ## Who is Rekt Developer?
 
 Likhon Sheikh, also known as *Rekt Developer*, is a passionate **Blockchain Developer** and innovator specializing in **Web3 technologies**. His expertise spans **Ethereum**, **Solidity**, **Rust**, and **Smart Contracts**, with a focus on building decentralized applications (DApps) and enhancing blockchain security.
-
-- **Ethereum Development**: Working with **Solidity** to build and deploy smart contracts on the **Ethereum blockchain**.
-- **DeFi Solutions**: Building decentralized finance solutions that operate on blockchain protocols.
-- **Smart Contracts**: Developing autonomous contract systems that facilitate trustless transactions without intermediaries.
-
-## 🔥 Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Rekt-Developer&theme=dark&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF)](https://git.io/streak-stats)
-
-</div>
 
 ## 🛠 Tech Stack
 
