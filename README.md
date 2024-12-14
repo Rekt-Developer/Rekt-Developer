@@ -21,10 +21,6 @@
     </div>
   </div>
 
-  <!-- About Section -->
-  <h3>Who is Rekt Developer?</h3>
-  <p>Likhon Sheikh, also known as *Rekt Developer*, is a passionate **Blockchain Developer** specializing in **Web3 technologies** such as **Ethereum**, **Solidity**, **Rust**, and **Smart Contracts** with a focus on **DApps** and **blockchain security**.</p>
-
   <!-- Tech Stack Section -->
   <h4>🛠 Tech Stack</h4>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
