@@ -17,4 +17,4 @@
 <meta name="twitter:site" content="@Rekt_Developer">
 <meta name="twitter:creator" content="@Rekt_Developer">
 <!-- End Hidden SEO Content -->
-![Rekt Developer SVG](./me.svg)
+![Rekt Developer SVG](me.svg)
