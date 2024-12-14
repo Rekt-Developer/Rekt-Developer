@@ -9,31 +9,35 @@
   </a>
 
   <!-- Stats Section -->
-  <div align="center" style="margin-top: 20px;">
-    <a href="https://git.io/streak-stats">
-      <img src="https://streak-stats.demolab.com?user=Rekt-Developer&theme=dark&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF" alt="GitHub Streak"/>
+<div align="center" style="margin: 20px 0;">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=Rekt-Developer&theme=dark&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF" 
+         alt="GitHub Streak" 
+         style="max-width: 100%; height: auto;"/>
+  </a>
+  <div style="margin-top: 10px;">
+    <img src="https://komarev.com/ghpvc/?username=Rekt-Developer&style=flat-square&color=red" 
+         alt="Profile Views" 
+         style="margin-right: 10px;"/>
+    <a href="https://t.me/RektDevelopers">
+      <img src="https://img.shields.io/badge/Join_Community-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" 
+           alt="Telegram Badge" 
+           style="height: 30px;"/>
     </a>
-    <div>
-      <img src="https://komarev.com/ghpvc/?username=Rekt-Developer&style=flat-square&color=red" alt="Profile Views"/>
-      <a href="https://t.me/RektDevelopers">
-        <img src="https://img.shields.io/badge/Join_Community-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge"/>
-      </a>
-    </div>
   </div>
+</div>
 
-  <!-- Tech Stack Section -->
-
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-    <img src="https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white" alt="Solidity"/>
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust"/>
-    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React"/>
-    <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3dotjs&logoColor=white" alt="Web3.js"/>
-    <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white" alt="Ethereum"/>
-  </div>
-
+<!-- Tech Stack Section -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin: 20px 0;">
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white" alt="Solidity" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3dotjs&logoColor=white" alt="Web3.js" style="height: 30px;"/>
+  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white" alt="Ethereum" style="height: 30px;"/>
+</div>
 
   <!-- Recent Activity Graph Section -->
   <h4>🎯 Recent Activity Graph</h4>
