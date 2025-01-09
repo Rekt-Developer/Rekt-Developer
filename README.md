@@ -6,8 +6,6 @@
   <!-- Typing SVG -->
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=700&size=28&duration=2500&pause=1500&color=FF0000&center=true&vCenter=true&random=false&width=700&height=70&lines=Web3+%26+Blockchain+Developer;Smart+Contract+Security+Expert;DApps+%26+DeFi+Specialist)](https://git.io/typing-svg)
 
-  <!-- Stats Section -->
-  ![GitHub Streak](https://streak-stats.demolab.com?user=Rekt-Developer&theme=dark&date_format=M%20j%5B%2C%20Y%5D&card_width=800&background=000000&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&currStreakNum=FFFFFF)
 
   <!-- Profile Views -->
   ![Profile Views](https://komarev.com/ghpvc/?username=Rekt-Developer&style=flat-square&color=red)
